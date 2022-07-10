@@ -1,0 +1,48 @@
+html {
+  margin: 0px;
+}
+body {
+  font-family: "Elice Digital Baeum", sans-serif;
+  margin: 0px;
+}
+header {
+  margin: 0px;
+}
+nav {
+  color: white;
+  background-color: gray;
+}
+nav ul {
+  margin: auto;
+  max-width: 800px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+}
+nav ul li {
+  padding: 10px 0px;
+  margin-right: 20px;
+}
+footer {
+  background-color: gray;
+  padding: 20px;
+}
+footer h4,
+footer p {
+  margin: auto;
+  max-width: 800px;
+}
+#container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+main {
+  margin: 0px 20px;
+  max-width: 800px;
+  margin: auto;
+}
